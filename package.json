@@ -1,0 +1,22 @@
+{
+  "name": "progen",
+  "version": "1.0.0",
+  "description": "A CLI tool to quickly initialize any software project",
+  "bugs": {
+    "url": "https://github.com/delalify/progen/issues"
+  },
+  "homepage": "https://github.com/delalify/progen#readme",
+  "bin": {
+    "progen": "./src/build/index.js"
+  },
+  "main": "index.js",
+  "repository": "https://github.com/delalify/progen.git",
+  "author": "Delalify",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.11.0",
+    "@typescript-eslint/parser": "^5.11.0",
+    "eslint": "^8.9.0"
+  }
+}
