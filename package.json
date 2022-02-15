@@ -7,7 +7,7 @@
   },
   "homepage": "https://github.com/delalify/progen#readme",
   "bin": {
-    "progen": "./src/build/index.js"
+    "progen": "./src/dist/index.js"
   },
   "main": "index.js",
   "repository": "https://github.com/delalify/progen.git",
