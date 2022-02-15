@@ -7,7 +7,7 @@
   },
   "homepage": "https://github.com/delalify/progen#readme",
   "bin": {
-    "progen": "./src/dist/index.js"
+    "progen": "./dist/src/index.js"
   },
   "main": "index.js",
   "repository": "https://github.com/delalify/progen.git",
@@ -15,7 +15,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "start": "ts-node src/index.ts",
+    "start": "ts-node ./dist/src/index.js",
     "dev": "ts-node-dev src/index.ts",
     "build": "tsc --project ./"
   },
